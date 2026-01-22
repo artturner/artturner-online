@@ -12,7 +12,7 @@ export default function Home() {
           <div className="space-y-2">
             <h1 className="text-4xl font-semibold tracking-tight">Art Turner</h1>
             <p className="text-lg text-white/80">
-              AI Engineer · Python · SQL · Cloud ML · Deployment
+              AI Engineer · Python · Cloud ML · Deployment
             </p>
             <p className="text-white/70 italic">
               Data-driven by default. Relentless by nature.
