@@ -13,8 +13,7 @@ export default function Home() {
             <img
               src="/headshot.jpg"
               alt="Art Turner"
-              object-[center_20%]
-              className="h-28 w-28 shrink-0 rounded-full object-cover border-2 border-white/10"
+              className="h-28 w-28 shrink-0 rounded-full object-cover object-[center_20%] border-2 border-white/10"
             />
             <div className="space-y-2">
               <h1 className="text-4xl font-semibold tracking-tight">Art Turner</h1>
