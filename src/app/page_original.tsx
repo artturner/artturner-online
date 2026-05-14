@@ -12,7 +12,7 @@ export default function Home() {
           <div className="space-y-2">
             <h1 className="text-4xl font-semibold tracking-tight">Art Turner</h1>
             <p className="text-lg text-white/80">
-              AI Application Engineer · GenAI / RAG · Python · AWS
+              AI Engineer · Python · Cloud ML · Deployment
             </p>
             <p className="text-white/70 italic">
               Data-driven by default. Relentless by nature.
@@ -20,12 +20,13 @@ export default function Home() {
           </div>
 
           <ul className="space-y-2 text-white/80">
-            <li>• Design and deploy RAG pipelines, LLM orchestration, and multi-agent workflows end-to-end.</li>
-            <li>• Strong Python foundation with a production mindset: containers, APIs, evaluation, CI/CD.</li>
-            <li>• AWS-certified across 7 credentials including GenAI Developer (Professional) and ML Specialty.</li>
+            <li>• Build and deploy ML + LLM solutions end-to-end: data → model → evaluation → delivery.</li>
+            <li>• Strong Python/SQL foundation with a production mindset (pipelines, reliability, automation).</li>
+            <li>• Portfolio spans NLP, time-series forecasting, and AI-enabled workflow automation.</li>
           </ul>
 
           <div className="flex flex-wrap gap-3 pt-2">
+            {/* Fill these in when ready */}
             <a
               className="rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm hover:bg-white/10"
               href="/resume.pdf"
@@ -72,46 +73,20 @@ export default function Home() {
           <h2 className="text-2xl font-semibold tracking-tight">Skills</h2>
           <div className="mt-6 grid gap-6 md:grid-cols-3">
             <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
-              <h3 className="font-semibold">GenAI / RAG</h3>
+              <h3 className="font-semibold">Languages</h3>
+              <p className="mt-2 text-sm text-white/75">Python, SQL, TypeScript/JavaScript</p>
+            </div>
+            <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
+              <h3 className="font-semibold">ML / AI</h3>
               <p className="mt-2 text-sm text-white/75">
-                LangGraph, LangChain, RAG pipelines, embeddings, vector search, prompt engineering, hallucination mitigation, multi-agent orchestration
+                scikit-learn, PyTorch, forecasting, NLP/LLMs, evaluation, feature engineering
               </p>
             </div>
             <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
-              <h3 className="font-semibold">Languages & Frameworks</h3>
+              <h3 className="font-semibold">Cloud / Delivery</h3>
               <p className="mt-2 text-sm text-white/75">
-                Python, TypeScript, SQL, FastAPI, Next.js, Pydantic v2, PyTorch, scikit-learn
+                AWS, Docker, Git, CI/CD, APIs (FastAPI), Streamlit/Gradio
               </p>
-            </div>
-            <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
-              <h3 className="font-semibold">Infrastructure & DevOps</h3>
-              <p className="mt-2 text-sm text-white/75">
-                AWS (7 certs), Docker, CI/CD, REST APIs, OpenAPI, structured logging, monitoring
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Certifications */}
-        <section className="mt-16">
-          <h2 className="text-2xl font-semibold tracking-tight">Certifications</h2>
-          <div className="mt-6 grid gap-4 md:grid-cols-2">
-            <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
-              <h3 className="font-semibold">AI / ML</h3>
-              <ul className="mt-2 space-y-1 text-sm text-white/75">
-                <li>• AWS Generative AI Developer - Professional</li>
-                <li>• AWS Machine Learning - Specialty</li>
-                <li>• AWS Machine Learning Engineer - Associate</li>
-                <li>• AWS AI Practitioner</li>
-              </ul>
-            </div>
-            <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
-              <h3 className="font-semibold">Cloud / Data</h3>
-              <ul className="mt-2 space-y-1 text-sm text-white/75">
-                <li>• AWS Data Engineer - Associate</li>
-                <li>• AWS Solutions Architect - Associate</li>
-                <li>• AWS Cloud Practitioner</li>
-              </ul>
             </div>
           </div>
         </section>
