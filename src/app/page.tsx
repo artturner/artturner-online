@@ -1,5 +1,5 @@
 import ProjectCard from "@/components/ProjectCard";
-import { projects } from "@/data/projects";
+import { projects } from "@/data/projects-capgemini";
 
 export default function Home() {
   const featured = projects.filter((p) => p.featured);
