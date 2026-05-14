@@ -9,21 +9,14 @@ export default function Home() {
       <div className="mx-auto max-w-5xl px-6 py-16">
         {/* Hero */}
         <header className="space-y-6">
-          <div className="flex items-start gap-6">
-            <img
-              src="/headshot.jpg"
-              alt="Art Turner"
-              className="h-28 w-28 shrink-0 rounded-full object-cover border-2 border-white/10"
-            />
-            <div className="space-y-2">
-              <h1 className="text-4xl font-semibold tracking-tight">Art Turner</h1>
-              <p className="text-lg text-white/80">
-                AI Application Engineer · GenAI / RAG · Python · AWS
-              </p>
-              <p className="text-white/70 italic">
-                Data-driven by default. Relentless by nature.
-              </p>
-            </div>
+          <div className="space-y-2">
+            <h1 className="text-4xl font-semibold tracking-tight">Art Turner</h1>
+            <p className="text-lg text-white/80">
+              AI Application Engineer · GenAI / RAG · Python · AWS
+            </p>
+            <p className="text-white/70 italic">
+              Data-driven by default. Relentless by nature.
+            </p>
           </div>
 
           <ul className="space-y-2 text-white/80">
