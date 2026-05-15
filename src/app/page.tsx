@@ -41,13 +41,13 @@ export default function Home() {
             </a>
             <a
               className="rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm hover:bg-white/10"
-              href="#"
+              href="https://github.com/artturner"
             >
               GitHub
             </a>
             <a
               className="rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm hover:bg-white/10"
-              href="#"
+              href="https://www.linkedin.com/in/drartturner/"
             >
               LinkedIn
             </a>
