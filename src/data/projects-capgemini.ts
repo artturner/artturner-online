@@ -9,6 +9,31 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+    {
+    slug: "education-qlora-aws",
+    title: "Intelligent Retrieval & Advisor-Assist System",
+    oneLiner:
+      "End-to-end fine-tuning, evaluation, and deployment pipeline for a K-12 science Q&A model, orchestrated with Dagster and deployed to a live SageMaker endpoint.",
+    highlights: [
+      "Fine-tuned Llama 3.2 1B Instruct with LoRA on 7,666 K-12 science questions (OpenBookQA + SCIQ), achieving a +22 percentage point improvement in Exact Match accuracy (54% to 76%) over the base model",
+      "Built a dual evaluation framework: Exact Match scoring on 100 held-out questions plus LLM-as-Judge (Claude) scoring Correctness, Pedagogy, and Conciseness on a stratified 20-sample subset. Fine-tuned model scored 3.27/5 overall vs. 2.20/5 base",
+      "Orchestrated the full pipeline with Dagster (data prep, SageMaker training, SageMaker evaluation, deployment) with a quality gate that blocks deployment if the fine-tuned model does not outperform baseline",
+      "Deployed the merged LoRA adapter as a live SageMaker real-time endpoint (ml.g5.xlarge), verified with 3/3 correct live inference predictions",
+    ],
+    tech: [
+      "Python",
+      "PyTorch",
+      "HuggingFace Transformers",
+      "PEFT/LoRA",
+      "ChromaDB",
+      "AWS SageMaker",
+      "Anthropic Claude",
+      "Dagster",
+      "boto3",
+    ],
+    links: [{ label: "Repo", href: "https://github.com/artturner/education-qlora-aws" }, { label: "Demo", href: "" }],
+    featured: true,
+  },
   {
     slug: "retrieval-advisor-assist",
     title: "Intelligent Retrieval & Advisor-Assist System",
