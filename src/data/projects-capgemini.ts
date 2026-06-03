@@ -11,7 +11,7 @@ export type Project = {
 export const projects: Project[] = [
     {
     slug: "education-qlora-aws",
-    title: "Intelligent Retrieval & Advisor-Assist System",
+    title: "Education-Domain LoRA Fine-Tuning Pipeline",
     oneLiner:
       "End-to-end fine-tuning, evaluation, and deployment pipeline for a K-12 science Q&A model, orchestrated with Dagster and deployed to a live SageMaker endpoint.",
     highlights: [
