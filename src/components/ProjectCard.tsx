@@ -11,7 +11,7 @@ export default function ProjectCard({ project }: { project: Project }) {
       </div>
 
       <ul className="mt-4 space-y-2 text-sm text-white/80">
-        {project.highlights.slice(0, 3).map((h) => (
+        {project.highlights.slice(0, 5).map((h) => (
           <li key={h} className="flex gap-2">
             <span className="mt-[6px] h-1.5 w-1.5 shrink-0 rounded-full bg-white/40" />
             <span>{h}</span>
@@ -20,7 +20,7 @@ export default function ProjectCard({ project }: { project: Project }) {
       </ul>
 
       <div className="mt-4 flex flex-wrap gap-2">
-        {project.tech.slice(0, 10).map((t) => (
+        {project.tech.slice(0, 12).map((t) => (
           <span
             key={t}
             className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 text-xs text-white/70"
